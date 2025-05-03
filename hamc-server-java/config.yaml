@@ -9,8 +9,10 @@ arch:
   - armv7
 ports:
   25565/tcp: "25565"
+  24454/udp: "24454"
 ports_description:
   25565/tcp: Minecraft Server Port
+  24454/udp: Minecraft Voice Port
 options:
   VERSION: LATEST
   SERVER_NAME: "HAMC Java Server"
